@@ -1,0 +1,29 @@
+.hit-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.hit-title{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 35px;
+	text-align: center;
+
+	margin-top: 36px;
+}
+.hit-line{
+	margin: 22px auto 25px auto;
+	background-color: #000000;
+	width: 90px;
+	height: 3px;
+}
+p {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 0px;
+}
+.hit{
+	margin-bottom: 7px;
+}

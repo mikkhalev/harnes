@@ -1,0 +1,129 @@
+.header-bar{
+	width: 100%;
+	display: flex;
+	height: 68px;
+	justify-content: space-between;
+}
+.logo-bar{
+	margin-top: 10px;
+}
+.nav-bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 60%;
+}
+li{
+    list-style-type: none;
+    margin-left: 27px;
+    margin-top: 9px;
+    font-weight: normal;
+}
+ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+
+.header-baner{
+	background-image: url(../img/header.png);
+	height: 660px;
+	background-position:center;
+}
+.baner-text{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+}
+.baner-title{
+	font-size: 35px;
+	font-weight: 300;
+	font-style: normal;
+	text-align: center;
+}
+.baner-big-title{
+	font-size: 82px;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	line-height: 77px;
+}
+.baner-line{
+	width: 460px;
+	height: 3px;
+	background-color: #ffffff;
+	margin: 20px auto 42px auto;
+}
+.baner-discount{
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+}
+.baner-price{
+	font-size: 36px;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+}
+.baner-price > span{
+	font-size: 47px;
+	line-height: 57px;
+}
+.baner-btns{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+}
+.b-btn{
+	width: 260px;
+	height: 66px;
+	border: solid 2px #ffffff;
+	background: none;
+	color: #ffffff;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 14px;
+	letter-spacing: 1px;
+	transition: 0.2s
+}
+.b-btn:nth-child(2){
+	margin-left: 20px;
+}
+.b-btn:hover {
+	background: white;
+	color: #000000;
+	transition: 0.2s
+}
+
+@media (max-width: 640px) {
+	.baner-btns{
+		flex-direction: column;
+	}
+	.b-btn{
+		margin: 20px auto 0px auto !important;
+		width: 80% !important;
+	}
+	.baner-line{
+		width: 80%;
+	}
+	.baner-title{
+		font-size: 30px;
+	}
+	.baner-big-title{
+		font-size: 70px;
+	}
+}
+@media (max-width: 768px) {
+	.logo-bar{
+		margin: auto;
+	}
+	.nav-bar{
+		display: none;
+	}
+}

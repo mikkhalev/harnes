@@ -1,0 +1,40 @@
+body{
+	margin: 0px;
+	padding: 0px; 
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #a00046;
+}
+
+.wrapper{
+	font-family: Open Sans;
+	padding: 0px 471px;
+	background-color: #ffffff;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+@media (max-width: 1770px) {
+	.wrapper{
+		padding: 0px 300px;
+	}
+}
+
+@media (max-width: 1440px) {
+	.wrapper{
+		padding: 0px 150px;
+	}
+}
+
+@media (max-width: 1130px) {
+	.wrapper{
+		padding: 0px 50px;
+	}
+}
+
